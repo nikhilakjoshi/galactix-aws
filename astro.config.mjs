@@ -5,7 +5,7 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
-      favicon: "./src/assets/favicon.svg",
+      favicon: "./src/assets/favicon.ico",
       title: "AWS",
       customCss: ["./src/styles/custom.css", "@fontsource/geist-mono"],
       // social: {
