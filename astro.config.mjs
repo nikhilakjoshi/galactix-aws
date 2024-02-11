@@ -5,16 +5,17 @@ import starlight from "@astrojs/starlight";
 export default defineConfig({
   integrations: [
     starlight({
+      favicon: "./src/assets/favicon.svg",
       title: "AWS",
       customCss: ["./src/styles/custom.css", "@fontsource/geist-mono"],
       // social: {
       //   github: "https://github.com/withastro/starlight",
       // },
       sidebar: [
-        // {
-        //   label: "API Gateway",
-        //   autogenerate: { directory: "api-gateway" },
-        // },
+        {
+          label: "API Gateway",
+          autogenerate: { directory: "api-gateway" },
+        },
         // {
         //   label: "Lambda",
         //   autogenerate: { directory: "lambda" },
