@@ -13,16 +13,12 @@ export default defineConfig({
       // },
       sidebar: [
         {
-          label: "API Gateway",
-          autogenerate: { directory: "api-gateway" },
-        },
-        // {
-        //   label: "Lambda",
-        //   autogenerate: { directory: "lambda" },
-        // },
-        {
           label: "Port Forwarding",
           autogenerate: { directory: "port-forwarding" },
+        },
+        {
+          label: "API Gateway",
+          autogenerate: { directory: "api-gateway" },
         },
       ],
     }),
